@@ -219,3 +219,92 @@ line-height: 164.06%;
 .container_footer{
     display: flex;
 }
+@media (max-width: 390px)
+{
+    .nav__list
+{
+    display: none;
+}
+    .container
+{
+    width: 380px;
+}
+    .container__hero-block
+{
+    flex-direction: column;
+    justify-content: center;
+}
+    .hero-block__content
+{
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+    .header__title
+{
+    font-size: 14px;
+}
+    .logo
+{
+    width: 50px;
+}
+    .hero-block__img
+{
+    width: 250px;
+    text-align: center;
+    margin: 0px;
+}
+    .hero-block__title
+{
+    font-size: 36px;
+    text-align: center;
+}
+    .hero-block__text
+{
+    font-size: 16px;
+}
+    .hero-block__button
+{
+    font-size: 18px;
+}
+    .container__about
+{
+    flex-direction: column;
+    align-items: center;
+}
+    .about__img
+{
+    width: 265.59px;
+    margin: 0px;
+}
+    .video_video
+{
+    width: 281.56px;
+    height: 163.31px;
+    border: 14.06px solid rgb(65, 65, 65);
+}
+    .container_footer
+{
+    flex-direction: column;
+    align-items: center;
+}
+    .about__content
+{
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+    .gallary_item
+{
+    width: 100%;
+}
+    .footer_list
+{
+    margin: 0px;
+    padding: 0px;
+}
+}
